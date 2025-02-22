@@ -1,0 +1,20 @@
+.HomeUser {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .row {
+    width: 100%;
+    display: flex;
+  }
+  
+  .col-xl-3 {
+    flex: 0 0 25%; /* Adjust as per Bootstrap's 3/12 grid rule */
+    max-width: 25%;
+  }
+  
+  .col-xl-9 {
+    flex: 0 0 75%; /* Adjust as per Bootstrap's 9/12 grid rule */
+    max-width: 75%;
+  }
+  

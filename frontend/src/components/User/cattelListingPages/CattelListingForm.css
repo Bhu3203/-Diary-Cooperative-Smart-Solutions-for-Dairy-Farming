@@ -1,0 +1,49 @@
+body {
+    /* background: linear-gradient(to right, #4e54c8, #8f94fb); */
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .buy-sell-container {
+    max-width: 800px;
+    margin: auto;
+    /* background: rgba(255, 255, 255, 0.1); */
+    border-radius: 10px;
+    padding-left: 200px;
+    padding-top: 75px;
+    padding-bottom: 20px;
+    /* position: relative; */
+    /* left: 105px;
+    top: 70px; */
+    
+  }
+  
+  .form-card {
+    background: rgba(255, 255, 240, 0.95) !important; /* Milk background for the container */
+    
+    box-shadow: 0 8px 12px rgba(0, 0, 139, 0.8) !important; 
+    border-radius: 15px;
+
+  }
+  .form-label{
+    color: black !important;
+  }
+  
+  .available-cattle {
+    /* background: rgba(255, 255, 255, 0.1); */
+    border-radius: 10px;
+  }
+  
+  h1, h2 {
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+  .table-dark {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  

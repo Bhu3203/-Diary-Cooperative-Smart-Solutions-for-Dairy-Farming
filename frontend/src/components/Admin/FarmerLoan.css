@@ -1,0 +1,38 @@
+.farmer-loan-container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+  }
+  
+  .farmer-loan-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .farmer-loan-form .btn {
+    width: 100%;
+  }
+  
+  .loan-records {
+    margin-top: 20px;
+  }
+  
+  .loan-record {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+  }
+  
+  .loan-record p {
+    margin: 5px 0;
+  }
+  
+  .loan-record .btn {
+    display: block;
+    margin: 10px auto 0;
+    width: 100%;
+  }
+  

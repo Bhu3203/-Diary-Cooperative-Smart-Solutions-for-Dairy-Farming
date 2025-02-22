@@ -1,0 +1,37 @@
+.dashboard-Container{
+    /* position: relative;
+    top: 70px;
+    left: 120px; */
+    width: 950px;
+    padding-top: 70px;
+    padding-left: 130px;
+}
+
+.progress-cont{
+   padding-left: -10px !important;
+    padding-right: 40px !important;
+}
+
+
+
+/*  */
+.list-group-item {
+    font-size: 0.9rem;
+}
+.Db-heading th{
+    background-color: rgb(68, 18, 207) !important;
+    color: white !important;
+}
+
+.db-card-title{
+    color: rgb(17, 1, 1);
+}
+
+.Dcard{
+    background: rgba(255, 255, 240, 0.95) !important; 
+    max-height: 200px !important;
+    box-shadow: 0 8px 12px rgba(0, 0, 139, 0.8) !important; 
+    border-radius: 15px !important;
+    /* transition: transform 0.3s, box-shadow 0.3s; */
+    
+}

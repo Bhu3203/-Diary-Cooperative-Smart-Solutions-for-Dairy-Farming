@@ -1,0 +1,26 @@
+.f-card{
+    background-color: aliceblue;
+}
+.FarmerProfile-Card{
+    /* position: relative;
+    left: 120px;
+    top: 70px; */
+    background: rgba(255, 255, 240, 0.95) !important; /* Milk background for the container */
+    
+    box-shadow: 0 8px 12px rgba(0, 0, 139, 0.8) !important; 
+    border-radius: 15px ;
+    position: static;
+
+}
+.Farmer-Profile-Container{
+    position: static;
+     padding-left: 200px !important; 
+    padding-top: 70px !important;
+    padding-bottom: 30px !important;
+
+}
+
+.Pedit-btn{
+    color: black !important;
+}
+

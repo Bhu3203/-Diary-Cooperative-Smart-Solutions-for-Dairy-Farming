@@ -1,0 +1,95 @@
+/* MilkReport.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+  }
+  
+  .milk-report {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1b263b;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .report-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .report-header h1 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .switch-lang {
+    background-color: #ffd60a;
+    color: #1b263b;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .milk-totals, .averages-totals {
+    margin-bottom: 20px;
+  }
+  
+  .milk-totals table, .averages-totals table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .milk-totals th, .milk-totals td,
+  .averages-totals td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #415a77;
+  }
+  
+  .milk-totals th {
+    background-color: #415a77;
+    color: #e0e1dd;
+  }
+  
+  .averages-totals td:first-child {
+    font-weight: bold;
+  }
+  
+  .report-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .download-btn, .cancel-btn {
+    background-color: #0096c7;
+    color: #e0e1dd;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  
+  .cancel-btn {
+    background-color: #ef233c;
+  }
+  
+  .download-btn:hover, .cancel-btn:hover {
+    opacity: 0.9;
+  }
+  
+  .report-footer p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #adb5bd;
+  }
+  

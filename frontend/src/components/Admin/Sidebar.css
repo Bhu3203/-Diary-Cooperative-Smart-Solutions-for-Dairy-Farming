@@ -1,0 +1,31 @@
+.asidebar {
+    background-color: #0f172a;
+    color: #fff;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    position: fixed;
+  }
+  
+  .asidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .asidebar ul li {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .asidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .asidebar ul li a:hover {
+    color: #60a5fa;
+  }
+  

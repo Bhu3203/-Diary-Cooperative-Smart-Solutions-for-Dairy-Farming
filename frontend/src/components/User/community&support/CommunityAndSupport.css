@@ -1,0 +1,17 @@
+.communitySupport-Cont{
+    max-width: 800px;
+    padding-top: 46px;
+    padding-left: 100px !important;
+    padding-bottom: 20px;
+    position:  static !important;
+
+}
+
+.communitySCard{
+    background: rgba(255, 255, 240, 0.95) !important; /* Milk background for the container */
+    
+    box-shadow: 0 8px 12px rgba(0, 0, 139, 0.8) !important; 
+    border-radius: 15px;
+    position: static;
+
+}

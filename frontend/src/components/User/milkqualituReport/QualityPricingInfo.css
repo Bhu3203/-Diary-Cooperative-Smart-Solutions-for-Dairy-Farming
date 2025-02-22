@@ -1,0 +1,81 @@
+.report-container{
+    position: relative;
+    left: 130px;
+    width: 1000px;
+    top: 46px;
+    
+}
+.Qr-title{
+    color: rgb(10, 1, 1);
+}
+
+
+.Qr-headingRow th{
+    color: white;
+    background-color:rgb(68, 18, 207) !important; 
+   
+   
+
+}
+.col-container{
+    height: 40px !important;
+}
+.qualityTableData{
+    position: relative;
+    top: 2px;
+}
+
+.Qcard{
+    /* background-color: #fff !important;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); */
+    /* transition: transform 0.3s, box-shadow 0.3s !important; */
+    /* border-radius: 15px; */
+    background: rgba(255, 255, 240, 0.95) !important; /* Milk background for the container */
+    padding: 20px;
+    box-shadow: 0 8px 12px rgba(0, 0, 139, 0.8) !important; 
+    border-radius: 15px;
+    position: relative;
+    top: -18px;
+}
+
+
+
+/* .Qr-headingRow .qtr-datath{
+    width: 50px;
+} */
+
+
+/* All record checkbox style */
+.allRecord-checkbox{
+    position: relative;
+    left: 200px;
+    width: 150px;
+    top: -10px;
+}
+
+/* search by date calender style */
+.qualitydata-search{
+    position: relative;
+    left: 200px;
+    top: -10px;
+}
+
+/* .qualityTableData{
+    overflow: scroll ;
+} */
+
+
+.table-container {
+    max-height: 230px; /* Adjust height as needed */
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    /* left: 200px; */
+    
+  }
+  
+  /* .table-container .qtr-data{
+    width: 1000px !important;
+  }  */
+
+

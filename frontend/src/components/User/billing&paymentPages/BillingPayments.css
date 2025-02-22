@@ -1,0 +1,78 @@
+
+
+.billing-container{
+    position: relative;
+    left: 120px;
+    width: 1000px;
+    top: 46px;
+    padding-bottom: 8px;
+    overflow: hidden !important;
+    /* height: 100%; */
+
+}
+
+.billingCard{
+    /* background: rgba(255, 255, 240, 0.9);  */
+    /* background-color: rgba(255, 255, 240, 0.9) !important;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 15px; */
+    /* padding: 20px; */
+    background: rgba(255, 255, 240, 0.95) !important; /* Milk background for the container */
+    
+    box-shadow: 0 8px 12px rgba(0, 0, 139, 0.8) !important; 
+    border-radius: 15px;
+    /* position: relative; */
+    /* top: -45px; */
+
+}
+
+.billingCard {
+    height: 300px;
+}
+.col-cont{
+    position: relative;
+    top: -36px;
+    
+    /* top: -5px; */
+}
+
+.search-container{
+    width: 232px;
+    position: relative;
+    top: -20px;
+    
+}
+.showAllContiner{
+    position: relative;
+    top: -20px;
+}
+
+
+
+.Billhead th{
+    background-color: rgb(68, 18, 207) !important;
+    color: white !important;
+}
+.cardTitle{
+    color: rgb(14, 13, 13) !important;
+}
+button{
+    color: white !important;
+}
+
+
+
+
+.table-container {
+    max-height: 200px; /* Adjust height based on your layout */
+    overflow-y: auto;
+  }
+  
+  .table-container thead {
+    position: sticky !important;
+    top: 0;
+    background: #f8f9fa; /* Matches the table-light background */
+    z-index: 1;
+  }
+  

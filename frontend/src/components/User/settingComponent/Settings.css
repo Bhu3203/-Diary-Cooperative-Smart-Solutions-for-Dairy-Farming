@@ -1,0 +1,53 @@
+
+ /* Settings Container */
+.settings-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    left: 150px;
+    width: 600px;
+    top: 40px;
+}
+
+/* Settings Form Card */
+.settings-form {
+    background: rgba(255, 255, 255, 0.85); /* White with transparency */
+    backdrop-filter: blur(10px); /* Blur background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Labels */
+.settings-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form Inputs */
+.settings-form input,
+.settings-form .form-check-input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Save Button */
+.settings-form .btn-success {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.1rem;
+}
+
+/* Body Themes */
+body.light {
+    background: linear-gradient(to bottom right, #f8f9fa, #e9ecef);
+    color: #333;
+}
+
+body.dark {
+    background: linear-gradient(to bottom right, #343a40, #212529);
+    color: #fff;
+}
+
+.settings-container h2 {
+    color: #007bff;
+}

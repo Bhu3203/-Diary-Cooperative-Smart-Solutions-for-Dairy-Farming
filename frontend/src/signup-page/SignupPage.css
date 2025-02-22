@@ -1,0 +1,119 @@
+/* SignupPage.css */
+
+.signup-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Example background color */
+  }
+  
+  .signup-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Adjust as needed */
+  }
+  
+  .signup-link {
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+    color: #007bff; /* Example link color */
+    text-decoration: none;
+  }
+  
+  .signup-header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .signup-input-field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding is included in width */
+    font-size: 16px;
+    display: flex; /* To align icon and input */
+    align-items: center; /* Vertically center icon and input */
+  }
+  
+  .signup-input-field svg {
+    margin-right: 10px; /* Space between icon and input text */
+    color: #777; /* Example icon color */
+  }
+  
+  .signup-btn {
+    background-color: #007bff; /* Example button color */
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .signup-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  /* Role Dropdown Styles */
+  .relative { /* This is already on the role div, no need to add again if present */
+    position: relative;
+    margin-bottom: 15px; /* Consistent spacing with other inputs */
+  }
+  
+  .role-dropdown {
+    position: absolute;
+    top: 100%; /* Position below the button */
+    left: 0;
+    width: 100%; /* Match button width */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Ensure it's above other elements */
+  }
+  
+  
+  .role-option {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .role-option:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+  }
+  
+  /* Optional: Style the selected role display in the button */
+  .signup-input-field { /* Add or modify as needed */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* To push the down arrow to the right if you add one */
+  }
+  
+  .signup-input-field::after { /* Example down arrow - you might use an icon instead */
+    content: '\279C'; /* Downwards arrow character */
+    margin-left: 10px;
+    color: #777;
+  }

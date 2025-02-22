@@ -1,0 +1,179 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Sidebar container */
+  .usideBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px; /* Full width */
+    /* background-color: #2c3e50; */
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    background: skyblue !important;
+    /* background: rgba(255, 255, 240, 0.95) !important;  */
+    /* 0, 0, 139, 0.8 */
+    box-shadow: 4px 8px 12px rgba(0, 0, 139, 0.8) !important; 
+    border-radius: 15px;
+  }
+  
+  /* Collapsed sidebar */
+  .usideBar.collapsed {
+    width: 60px; /* Only icons are visible */
+   
+  }
+  .hiddenIcon{
+    /* position: relative;
+    top: 5px; */
+    visibility: hidden !important;
+    color: white !important;
+  }
+
+  .farmerSideIcon{
+    visibility: visible !important;
+   /* position: relative;
+   left:  -15px ; */
+   flex: 2;
+
+  }
+  .utitle{
+    flex: 2;
+    color:  white !important;
+
+  }
+  .usideBar.collapsed .hiddenIcon{
+    visibility: visible !important;
+    /* position: relative; */
+    /* left: 20px !important; */
+  }
+  
+  /* Sidebar list */
+  .uSidebarList {
+    list-style-type: none;
+   margin-top: 30px;
+    padding: 0;
+  }
+  
+  /* List items */
+  .uSidebarList .ulist-group-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    /* color: rgb(255, 255, 255); */
+    color: rgb(1, 7, 10) !important; /* Sky blue text for modal title */
+   font-weight: bold;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    border: none;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: transparent;
+   
+  }
+  
+  .uSidebarList .ulist-group-item:hover {
+    background-color: #34495e;
+    color: white !important;
+  }
+  
+  /* Active list item styles */
+  .uSidebarList .ulist-group-item.bg-primary {
+    background-color: #2980b9 !important;
+  }
+  
+  /* Icon styles */
+  .uSidebarList .ulist-group-item span:first-child {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    width: 40px; /* Fixed size for icons */
+    margin-right: 10px;
+  }
+  
+  /* Title visibility */
+  .uSidebarList .ulist-group-item .utitle {
+    font-size: 1rem;
+    transition: opacity 0.3s ease, visibility 0.3s ease, width 0.3s ease;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+ 
+  /* Collapsed sidebar - icon alignment */
+  .usideBar.collapsed .ulist-group-item span:first-child {
+    
+    margin-right: 0;
+    justify-content: center;
+    width: 100%; /* Center icon in the collapsed sidebar */
+  }
+  
+  
+
+
+
+
+
+
+
+  
+  /* Ensure the icon remains visible */
+  .usideBar.collapsed .ulist-group-item .farmerSideIcon {
+    position: relative;
+    visibility: visible; /* Ensure visibility */
+    opacity: 1; /* Ensure opacity is fully visible */
+    margin-right: 0; /* Remove extra spacing */
+    left: 30px; /* Align icon properly */
+  }
+  
+  /* Hide the title in collapsed state */
+  .usideBar.collapsed .ulist-group-item .utitle {
+    visibility: hidden; /* Hide title text */
+    opacity: 0; /* Make title text invisible */
+    width: 0; /* Ensure no space for the title */
+  }
+  
+  .usideBar.collapsed  .farmerSideIcon{
+    visibility: inherit;
+  }
+
+
+
+
+  .usideBar.collapsed  .sidebar-brandName h2{
+    transition: width 0.3s ease-in-out;
+    
+    visibility: hidden;
+  }
+
+  .sidebar-brandName span{
+    position: relative;
+    top: 8px;
+   /* padding-top: 40px; */
+    left: -5px;
+    font-size: x-large;
+    font-weight: bold;
+   
+   
+    
+  font-weight: bold;
+  }
+
+  .sidebar-brandName{
+    
+    position: relative;
+    top: 15px;
+   /* padding-top: 40px; */
+    left: 80px;
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    border-radius: 8px;
+  }
